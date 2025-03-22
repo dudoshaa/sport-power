@@ -1,0 +1,316 @@
+/* lexend-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/lexend-v23-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lexend-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lexend-v23-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lexend-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/lexend-v23-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lexend-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/lexend-v23-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Lexend", sans-serif;
+  color: #7a7a7a;
+}
+
+.container {
+  width: 100%;
+  max-width: 1444px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*HEADER*/
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 85px;
+}
+
+.sitenav-list {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  font-size: 14px;
+}
+
+.sitenav-link {
+  text-transform: uppercase;
+  color: #2c2c2c;
+  transition: 0.3s;
+}
+.sitenav-link:hover {
+  color: #9700c6;
+}
+
+.btn {
+  border: 1px solid #000;
+  border-radius: 38px;
+}
+.header-btn {
+  padding: 10px 20px;
+  gap: 10px;
+  color: #2c2c2c;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+.header-btn:hover {
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+/*MAIN*/
+
+/*SECTION 1*/
+
+.main-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.main-hero__subtitle {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.main-hero__title {
+  font-weight: 600;
+  font-size: 148px;
+  color: #000;
+  text-transform: uppercase;
+}
+.main-hero__video {
+  width: 100%;
+  border-radius: 48px;
+  overflow: hidden;
+}
+.main-hero__video iframe {
+  width: 100%;
+  height: 560px;
+}
+/*SECTION 2*/
+
+.Categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 120px;
+}
+.Categories-desc {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 12px;
+}
+.Categories-title {
+  font-weight: 500px;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #000;
+}
+.Categories-subtitle {
+  max-width: 456px;
+  font-weight: 400px;
+  font-size: 16px;
+}
+.Sport-type {
+  display: flex;
+  flex-direction: column;
+  width: 548px;
+}
+.Sport-type__item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  border-bottom: 1px solid #cbcbcb;
+  padding: 24px 0;
+}
+.Sport-type__item p {
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+}
+
+/*SECTION 3*/
+
+.feature {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+.feature-title {
+  font-weight: 500;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #2c2c2c;
+  max-width: 506.6px;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+.feature-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.feature-cards__item1 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.feature-card {
+  background-color: #ededed;
+  padding: 48px;
+  border-radius: 30px;
+}
+.feature-cards__items1-image {
+  margin-bottom: 32px;
+}
+.feature-cards-title {
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: #000000;
+}
+.feature-cards-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.feature-cards__item2 {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* SECTION 4 */
+.club {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+.club-title {
+  font-weight: 500;
+  font-size: 48px;
+  text-transform: uppercase;
+  max-width: 507px;
+  margin: 0 auto;
+  color: #000;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.club-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.club-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  background-color: #ededed;
+  padding: 48px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.btn {
+  border: 1px solid #000000;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 38px;
+  padding: 12px 14px;
+  background-color: transparent;
+  color: #000;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-color: #000000;
+    color: #fff;
+  }
+}
+.club-card__content {
+  display: flex;
+}
+.club-card__content-image {
+  position: absolute;
+  bottom: 0;
+  right: 300px;
+}
+.club-card__content-image2 {
+  position: absolute;
+  bottom: 0;
+  right: 400px;
+}
+.club-card__content-image3 {
+  position: absolute;
+  bottom: 0;
+  right: 350px;
+}
+
+.club-card__content-desc {
+  max-width: 346px;
+}
+.club-card__content-title {
+  font-weight: 500;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #000;
+  text-align: right;
+}
+.club-card__content-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+
